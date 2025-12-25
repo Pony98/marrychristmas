@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Merry Christmas My Love ❤️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Background Music -->
+<audio autoplay loop>
+    <source src="music/christmas.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Snow -->
+<div class="snow"></div>
+
+<div class="container">
+    <h1>🎄 Merry Christmas My Love 🎄</h1>
+    <p class="message">
+        Every moment with you is my favorite memory ❤️  
+        Thank you for being my Christmas miracle ✨
+        
+    </p>
+
+    <div class="slider">
+        <img id="slide" src="images/15.jpg">
+    </div>
+
+    <div class="buttons">
+        <button onclick="prev()">❮</button>
+        <button onclick="next()">❯</button>
+    </div>
+
+    <p class="footer">Forever Yours ❤️</p>
+</div>
+
+
+<audio id="bgMusic" loop controls volume="0.3" style="display:none;">
+  <source src="music/christmas.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="toggleMusic()">Toggle Music</button>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
